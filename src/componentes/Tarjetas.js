@@ -1,4 +1,14 @@
+import { useState } from "react"
+
+
+
 export function Tarjetas(props){
+
+     
+// const[cargando, setcargando]= useState(true)
+// if(cargando){
+//     return <Mensaj setCargando={setcargando}></Mensaj>
+// }
    return <div className="col" style={{width: "16rem", height:"16rem"}}>
      <div className="card p-2">
        <img src={props.img} className="card-img-top " alt="..."/>

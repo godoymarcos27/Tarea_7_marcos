@@ -2,6 +2,7 @@
 import './App.css';
 import BarraNAv from './componentes/Nav';
 
+
 // import { GaleriaImg } from './componentes/Galeria';
 // import { Tarjetas } from './componentes/Tarjetas';
 
@@ -65,6 +66,7 @@ function App() {
   <nav className="navbar navbar-expand-lg bg-body-tertiary">
     <BarraNAv></BarraNAv>
     </nav>
+   
     <div  className="row row-cols-1 row-cols-md-4 g-4 mt-4 p-2 "  style={{color:"green", display: "flex",justifyContent:"center"}} >
  {card}
     </div>

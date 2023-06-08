@@ -1,4 +1,10 @@
+
+
+
 export function Formulario(){
+
+
+
     return<div cclassNamelass="container mt-5 "  id="ong" style={{width: "25rem", height:"25rem"}}>
       <div className="row justify-content-md-center">
         <div className="col-xl-5 col-md-12">
